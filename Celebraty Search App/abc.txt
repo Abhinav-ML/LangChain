@@ -1,0 +1,13 @@
+# To use Langchain Python Version > 3.8.1 must.
+
+## Virtual Env.
+--> $ conda --version
+--> $ conda create -p myenv python=3.9 -y
+--> $ conda activate myenv/
+
+llms : OpenAI , hugging face
+
+temperature : 0-1 : this is just suggesting how much control the agent should have while providing you the response
+if i keep on reducing this value the agent will loose control
+
+$ streamlit run main.py
